@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115.044" height="72.317" viewBox="0 0 115.044 72.317">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #d4ddff;
+        stroke-miterlimit: 10;
+        stroke-width: 1.091px;
+      }
+
+      .cls-2 {
+        fill: #d4ddff;
+      }
+    </style>
+  </defs>
+  <g id="side-2" transform="translate(0.546 0.546)">
+    <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-1" width="113.953" height="71.226"/>
+    <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-2" width="80.154" height="3.734" transform="translate(18.21 27.013)"/>
+    <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-2" width="58.149" height="3.734" transform="translate(29.213 38.317)"/>
+  </g>
+</svg>

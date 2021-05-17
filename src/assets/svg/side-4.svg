@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115.044" height="72.317" viewBox="0 0 115.044 72.317">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #d4ddff;
+        stroke-miterlimit: 10;
+        stroke-width: 1.091px;
+      }
+
+      .cls-2 {
+        fill: #d4ddff;
+      }
+    </style>
+  </defs>
+  <g id="side-4" transform="translate(0.546 0.546)">
+    <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-1" width="113.953" height="71.226"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-2" width="58.149" height="3.734" transform="translate(45.722 15.456)"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-2" width="58.149" height="3.734" transform="translate(45.722 26.668)"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-2" width="58.149" height="3.734" transform="translate(45.722 37.88)"/>
+    <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-2" width="58.149" height="3.734" transform="translate(45.722 49.091)"/>
+    <path id="Path_3" data-name="Path 3" class="cls-2" d="M333.856,363.17l5.873-13.744a14.947,14.947,0,1,1-7.082-1.152Z" transform="translate(-311.521 -329.025)"/>
+  </g>
+</svg>
