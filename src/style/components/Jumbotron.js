@@ -2,11 +2,20 @@ import styled, { css } from "styled-components";
 
 export const JumbotronWrapper = styled.div`
     padding: 10px 50px;
+    @media (max-width: 800px) {
+        padding: 150px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 export const JumbotronHeader = styled.h1`
     margin: 10px 0;
     font-size: 60px;
     font-weight: bold;
+    @media (max-width: 800px) {
+        font-size: 50px;
+    }
 `;
 export const JumbotronBody = styled.h5`
     margin: 20px 0;
@@ -16,6 +25,9 @@ export const JumbotronBody = styled.h5`
 export const ButtonGroup = styled.div`
     display: flex;
     flex-direction: row;
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
 `;
 export const Button = styled.button`
     margin: 0 20px;
@@ -33,4 +45,7 @@ export const Button = styled.button`
             border: 4px solid ${({ theme }) => theme.colors.accentColor};
             background-color: transparent;
         `}
+    @media (max-width: 800px) {
+        margin: 20px 0;
+    }
 `;

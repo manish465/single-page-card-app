@@ -9,6 +9,9 @@ import { ReactComponent as Side4 } from "../../assets/svg/side-4.svg";
 export const MainSvgWrapper = styled.div`
     display: flex;
     margin-top: 60px;
+    @media (max-width: 800px) {
+        display: none;
+    }
 `;
 export const MainSvg = styled(Main)`
     margin: 10px;
