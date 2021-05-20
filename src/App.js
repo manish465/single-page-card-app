@@ -1,8 +1,9 @@
-import { Appbar } from "./componets";
+import { Appbar, Backgroundelements } from "./componets";
 
 const App = () => {
     return (
         <>
+            <Backgroundelements />
             <Appbar />
         </>
     );

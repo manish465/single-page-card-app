@@ -12,6 +12,7 @@ export const AppbarWrapper = styled.div`
     align-items: center;
     width: 100%;
     padding: 20px;
+    z-index: 1000;
 `;
 export const AppbarLogo = styled(Logo)``;
 export const AppbarLinks = styled.div`
