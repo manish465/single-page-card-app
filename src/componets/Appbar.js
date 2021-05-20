@@ -28,9 +28,15 @@ const Appbar = () => {
                 <AppbarButton primary>Sign in</AppbarButton>
             </AppbarButtons>
             {openMenu ? (
-                <AppbarMenuCloseIcon onClick={() => setOpenMenu(false)} />
+                <AppbarMenuCloseIcon
+                    size={30}
+                    onClick={() => setOpenMenu(false)}
+                />
             ) : (
-                <AppbarMenuOpenIcon onClick={() => setOpenMenu(true)} />
+                <AppbarMenuOpenIcon
+                    size={30}
+                    onClick={() => setOpenMenu(true)}
+                />
             )}
         </AppbarWrapper>
     );
