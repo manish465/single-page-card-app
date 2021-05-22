@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 
 export const JumbotronWrapper = styled.div`
     padding: 10px 50px;
@@ -29,7 +30,7 @@ export const ButtonGroup = styled.div`
         flex-direction: column;
     }
 `;
-export const Button = styled.button`
+export const Button = styled(motion.button)`
     margin: 0 20px;
     padding: 10px 20px;
     border-radius: 10px;

@@ -1,6 +1,3 @@
-import styled from "styled-components";
-import { motion } from "framer-motion";
-
 import { GiForestCamp } from "react-icons/gi";
 
 import {
@@ -35,7 +32,7 @@ const headerVariants = {
 };
 const bodyVariants = {
     rest: {
-        scale: 1.5,
+        scale: 0,
         opacity: 0,
     },
     hover: {
@@ -55,7 +52,13 @@ const FeatureCard = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
                 tempore alias totam temporibus in possimus aliquam, nemo
             </Body>
-            <Button>Try It</Button>
+            <Button
+                whileHover={{
+                    scale: 1.5,
+                }}
+                whileTap={{ opacity: 0 }}>
+                Try It
+            </Button>
         </CardWrapper>
     );
 };

@@ -17,8 +17,21 @@ const Jumbotron = () => {
                 et quibusdam sunt nam?
             </JumbotronBody>
             <ButtonGroup>
-                <Button>GET STARTED</Button>
-                <Button secondary>LEARN HOW</Button>
+                <Button
+                    whileHover={{
+                        scale: 1.5,
+                    }}
+                    whileTap={{ opacity: 0 }}>
+                    GET STARTED
+                </Button>
+                <Button
+                    whileHover={{
+                        scale: 1.5,
+                    }}
+                    whileTap={{ opacity: 0 }}
+                    secondary>
+                    LEARN HOW
+                </Button>
             </ButtonGroup>
         </JumbotronWrapper>
     );
