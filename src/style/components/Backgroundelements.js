@@ -1,6 +1,5 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
-
-import { ReactComponent as Wave } from "../../assets/svg/wave-pattern.svg";
 
 export const BackgroundelementsWrapper = styled.div`
     position: absolute;
@@ -10,7 +9,7 @@ export const BackgroundelementsWrapper = styled.div`
         display: none;
     }
 `;
-export const WavePattern = styled(Wave)`
+export const WavePattern = styled(motion.div)`
     position: absolute;
     top: 0;
     right: 0;
