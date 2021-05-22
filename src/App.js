@@ -1,4 +1,4 @@
-import { Appbar, Backgroundelements, Welcome } from "./componets";
+import { Appbar, Backgroundelements, Features, Welcome } from "./componets";
 
 const App = () => {
     return (
@@ -6,6 +6,7 @@ const App = () => {
             <Backgroundelements />
             <Appbar />
             <Welcome />
+            <Features />
         </>
     );
 };

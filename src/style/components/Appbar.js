@@ -42,6 +42,7 @@ export const AppbarButton = styled.button`
     background-color: transparent;
     color: ${({ theme }) => theme.colors.accentColor};
     font-weight: bold;
+    box-shadow: ${({ theme }) => theme.shadow.default};
     ${({ primary }) =>
         primary &&
         css`

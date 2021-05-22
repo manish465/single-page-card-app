@@ -39,6 +39,7 @@ export const Button = styled.button`
     color: ${({ theme }) => theme.colors.accentColor};
     font-weight: bold;
     font-size: 20px;
+    box-shadow: ${({ theme }) => theme.shadow.default};
     ${({ secondary }) =>
         secondary &&
         css`
